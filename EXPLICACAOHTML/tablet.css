@@ -1,0 +1,109 @@
+
+    .container{
+margin: 0;
+border: 0;
+padding: 0;
+display: block;
+    }
+.nossaComida, .panela {
+    width: 60vw;
+    height: auto;
+}
+.imagem{
+    text-align: center;
+}
+.titulo{
+    font: 500 23px 'Mont', sans-serif;
+    margin: 35px 0;
+    text-align: center;
+}
+.item{
+    font: 500 15px 'Mont', sans-serif;
+    padding: 0 7px;
+}
+.item:hover {
+    font: 400 8px 'Mont', sans-serif;
+}
+
+#header .menu{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.texto{
+    font: 200 15px 'Mont', sans-serif;
+
+}
+.logo{
+    width: 55vw;
+    height: auto;
+    margin-left: 60px;
+    
+}
+
+#header .menu{
+    display: block;
+}
+.conteudo {
+    margin: 0 20px;
+    padding: 0;
+    border: 0;
+    }
+.prato {
+    width: 40vw;
+    margin: 10px 0;
+}
+.cardapio {
+    margin: 0 10px;
+}
+#nossaEquipe .container {
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+.section{
+    margin: 40px 0 0;
+
+}
+#contato{
+    margin: 0;
+    border: 0;
+    padding: 0;
+   
+}
+#contato .container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+   
+}
+.name {
+    width: 55       vw;
+    text-align: center;
+    margin-left: 100px;
+}
+.name.amm {
+    font: 500 30px 'Mont', sans-serif;
+    text-align: center ;
+    
+}
+.redes {
+    display: block;
+    margin: 20px 0;
+    width: 90vw;
+}
+.rede{
+    display: flex;
+    text-align: center;
+  margin: 10px 0;
+    width: 90vw;
+}
+
+.endereco {
+    width: 90vw;
+    margin-bottom: 25px;
+}
